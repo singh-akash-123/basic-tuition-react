@@ -1,0 +1,454 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.block-area{
+    width: 100%;
+    background: #fff;
+}
+.container-80{
+    width: 80%;
+    margin: auto;
+}
+.box-wrapper{
+    padding: 20px 0; 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+}
+.box-wrapper > .box{
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 15px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+    background-color: rgba(255,255,255,1);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box-wrapper > .box:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: scale(1.01);
+}
+.box-wrapper > .box > header{
+    padding-bottom: 10px;
+    border-bottom: 2px solid #2bc;
+}
+.box-wrapper > .box > header > h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.box-wrapper > .box > .text-wrapper{
+    margin: 20px 0px;
+}
+.box-wrapper > .box > .text-wrapper > p{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.text-wrapper > a{
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    transition: all ease-in-out 0.5s;
+}
+.text-wrapper > a:hover{
+    background: #fff;
+}
+/*Call to action*/
+.C2A{
+    width: 100%;
+    height: 300px;
+    background-color: yellow;
+    
+}
+.C2A > .C2A-wrapper{
+    width: 40%;
+    margin:auto;
+    align-items: center;
+    align-content: center;
+    height: 200px;
+    padding-top: 100px;
+}
+.C2A > .C2A-wrapper > h3{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 450;
+    padding-bottom: 25px;
+}
+.C2A > .C2A-wrapper > a{
+    text-align: center;
+    text-decoration: none;
+    margin-left: 40%;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+/*--------------------------------------------
+------------- Syllabus array -----------------
+--------------------------------------------*/
+.pass-syllabus{
+    width: 100%;
+    background: green;
+    padding: 30px 0px;
+    background: url(https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.pass-syllabus > .syllabus-wrapper{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+    padding: 10px 15px;
+}
+.pass-syllabus > h1,
+.pass-syllabus > p{
+    text-align: center;
+}
+.pass-syllabus > p{
+    padding-top: 10px;
+    font-size: 18px;
+}
+.pass-syllabus > h1{
+    font-size: 26px;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 2px solid yellow;
+}
+.pass-syllabus > .syllabus-wrapper > .syllabus{
+    border: 1px solid yellow;
+    padding: 15px;
+    background: rgba(200,200,200,0.8);
+}
+.pass-syllabus > .syllabus-wrapper > .syllabus > h4{
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(200,255,0,1);
+}
+.pass-syllabus > .syllabus-wrapper > .syllabus > p{
+    padding: 10px 0px 40px 0px; 
+}
+.pass-syllabus > .syllabus-wrapper > .syllabus > a{
+    border: 2px solid yellow;
+    text-align: center;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+/*--------------------------------------------------------
+------------------------- TopperList ---------------------
+--------------------------------------------------------*/
+.topperList{
+    width: 100%;
+    background: rgba(200,255,0,1);
+    padding-bottom: 30px;
+}
+.topperList > .container-80 > h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.topperList > .container-80 > .topperList-wrapper{
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 15px;
+}
+.topperList-wrapper > .toppers{
+    height: 220px;
+    border: 1px solid green;
+    padding: 15px;
+    background: green;
+    box-shadow: 2px 5px 10px rgba(0,128,0,0.8);
+    transform: scale(1.001);
+}
+.topperList-wrapper > .toppers > .display-card > .img-container{
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+.display-card > .img-container > img{
+    width: 100%;
+    height: 100%;
+}
+.display-card > .text-container{
+    text-align: center;
+    line-height: 1.5;
+}
+.display-card > .text-container > h4{
+    margin-top: 0px !important;
+    padding: 0px !important;
+    font-size: 18px !important;
+}
+/*------------------------------------------------------
+----------------------- Fee Structure ------------------
+------------------------------------------------------*/
+.fee-structure{
+    width: 100%;
+    background: rgba(128,0,128,0.6);
+    padding-bottom: 30px;
+}
+.fee-structure > .container-80 > h1{
+    color: #fff;
+    text-align: center;
+    padding: 25px 0px;
+}
+.fee-structure > .container-80 > .fee-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+}
+.fee-grid > .fee{
+    border: 1px solid #fff;
+    padding: 15px;
+    background: rgba(128,0,128,0.4);
+}
+.fee-grid > .fee > h3{
+    padding: 10px 0px 5px 0px;
+    border-bottom: 2px solid #fff;
+}
+.fee-grid > .fee > p{
+    padding: 15px 0px;
+    line-height: 1.5;
+    height: 70px;
+}
+/*----------------------------------------------------
+------------------ Student List ----------------------
+----------------------------------------------------*/
+.student-list{
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.student-list > .container-80 > .student-center{
+    width: 50%;
+    margin: auto;
+    border: 1px solid red;
+    padding: 15px;
+}
+.student-center > h1,h4{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.student-center > .s-list{
+    display: grid;
+    grid-template-columns: 60% 20% 20%;
+}
+.student-center > .s-list > h3{
+    text-align: center;
+    line-height: 1.5;
+}
+.student-center > .s-list > h3:nth-child(1){
+    text-align: left;
+}
+.p-b{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+}
+.students{
+    padding: 0px 15px;
+}
+.students > ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    list-style: decimal;
+    padding: 15px;
+}
+.students > ul > li{
+    font-size: 18px;
+    line-height: 1.5;
+}
+/*-----------------------------------------------
+------------------- Form component --------------
+-----------------------------------------------*/
+.register{
+    background: url(https://images.pexels.com/photos/374857/pexels-photo-374857.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px 0px;
+}
+.form-container{
+    width: 40%;
+    margin: auto;
+    border: 1px solid red;
+    padding: 15px;
+    background: rgba(0,0,0,0.5);
+}
+.form-container > form > h1{
+    text-align: center;
+    color: #fff;
+}
+.form-container > form > input[type=text],
+.form-container > form > input[type=email],
+.form-container > form > input[type=mobile]{
+    width: 80%;
+    padding: 5px 15px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 5px 0px 10px 0px;
+}
+.form-container > form > label{
+    color: #fff;
+    font-size: 18px;
+    padding-left: 10px;
+    padding-bottom: 15px !important;
+}
+.form-container > form > button{
+    margin-top: 15px;
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    background-color: #2bc;
+    cursor: pointer;
+}
+/* Table */
+.examList{
+    padding: 20px 0px;
+}
+.examList h1{
+    padding: 0px 0px 20px 0px;;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+@media(max-width: 720px){
+    .box-wrapper{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .fee-structure > .container-80 > .fee-grid{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .fee-grid > .fee{
+        height: 180px;
+    }
+    .fee-grid > .fee > p{
+        height: 80px;
+    }
+    .register > .form-container{
+        width: 70%;
+    }
+    .pass-syllabus{
+        padding: 0px;
+    }
+    .pass-syllabus > h1{
+        width: 50%;
+    }
+    .pass-syllabus > .syllabus-wrapper{
+        width: 95%;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .topperList > .container-80 > .topperList-wrapper{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .student-list{
+        padding: 10px 0px;
+    }
+    .student-list > .container-80{
+        width: 90%;
+        margin: auto;
+    }
+    .student-list > .container-80 > .student-center{
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+    }
+}
+@media(max-width: 520px){
+    .box-wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fee-structure > .container-80{
+        width: 95%;
+        margin: auto;
+    }
+    .fee-structure > .container-80 > .fee-grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 5px;
+    }
+    .fee-grid > .fee{
+        padding: 5px 10px;
+        height: 180px;
+    }
+    .fee-grid > .fee > p{
+        height: 80px;
+    }
+    .register > .form-container{
+        width: 80%;
+    }
+    .pass-syllabus > .syllabus-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 5px;
+    }
+    .pass-syllabus > .container-80{
+        width: 95%;
+        margin: auto;
+    }
+    .topperList,
+    .examList,
+    .register,
+    .pass-syllabus,
+    .student-list{
+        width: 100%;
+    }
+    .topperList > .container-80 > h1{
+        font-size: 20px;
+    }
+    .topperList > .container-80{
+        width: 95%;
+        margin: auto;
+    }
+    .topperList > .container-80 > .topperList-wrapper{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 5px;
+    }
+    .topperList-wrapper > .toppers{
+        transform: scale(1);
+        padding: 5px 10px;
+    }
+
+    .display-card > .text-container > h4{
+        font-size: 14px !important;
+    }
+    .student-list > .container-80{
+        width: 96%;
+        margin: 0px;
+    }
+    .student-list > .container-80 > .student-center{
+        width: 100%;
+        margin: auto;
+        padding: 5px;
+    }
+    .student-center > .s-list{
+        grid-template-columns: 40% 30% 30%;
+    }
+    .student-center > .s-list > h3{
+        font-size: 16px;
+    }
+    .students{
+        display: block;
+    }
+    .examList > .container-80{
+        width: 98%;
+    }
+}
