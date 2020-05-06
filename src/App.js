@@ -25,7 +25,7 @@ class App extends Component{
                 <Nav/>
                 <div class="app-page">
                     <Switch>
-                        <Route path="/" exact component={Home}/>
+                        <Route path="/Home" exact component={Home}/>
                         <Route path="/ClassNine" component = {ClassNine}/>
                         <Route path="/Primary" component={Primary}/>
                         <Route path="/ClassTen" component={ClassTen}/>
