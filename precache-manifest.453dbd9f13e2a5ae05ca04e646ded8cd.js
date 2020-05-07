@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c75efe6bc388fd4a35dbca4085284ff8",
+    "revision": "c25b1aa2af5c61ce4157cf6c119419af",
     "url": "/basic-tuition-react/index.html"
   },
   {
-    "revision": "f0c731fc418d7b185435",
+    "revision": "ddc075a84c39cb691e43",
     "url": "/basic-tuition-react/static/css/main.66769509.chunk.css"
   },
   {
-    "revision": "4c81f46edb79838ba7dc",
-    "url": "/basic-tuition-react/static/js/2.7dcff3e8.chunk.js"
+    "revision": "8c071a99653bc60979ff",
+    "url": "/basic-tuition-react/static/js/2.47927ac5.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/basic-tuition-react/static/js/2.7dcff3e8.chunk.js.LICENSE.txt"
+    "url": "/basic-tuition-react/static/js/2.47927ac5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f0c731fc418d7b185435",
-    "url": "/basic-tuition-react/static/js/main.e31f13d5.chunk.js"
+    "revision": "ddc075a84c39cb691e43",
+    "url": "/basic-tuition-react/static/js/main.56993314.chunk.js"
   },
   {
     "revision": "d8f761e960264431c3c2",
