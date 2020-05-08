@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7f2a203e38d71b8760b0d31f144f392f",
+    "revision": "c5a773e5857b19a1c9deaf68c62147eb",
     "url": "/basic-tuition-react/index.html"
   },
   {
-    "revision": "c564fa4a500c9b7f9157",
+    "revision": "bcce42591b1b8ed507d2",
     "url": "/basic-tuition-react/static/css/main.66769509.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/basic-tuition-react/static/js/2.6047e0fc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c564fa4a500c9b7f9157",
-    "url": "/basic-tuition-react/static/js/main.e97ca672.chunk.js"
+    "revision": "bcce42591b1b8ed507d2",
+    "url": "/basic-tuition-react/static/js/main.0c27cc8d.chunk.js"
   },
   {
     "revision": "d8f761e960264431c3c2",
