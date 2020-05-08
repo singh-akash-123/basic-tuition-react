@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/basic-tuition-react/static/css/main.66769509.chunk.css",
-    "main.js": "/basic-tuition-react/static/js/main.b1c634ec.chunk.js",
-    "main.js.map": "/basic-tuition-react/static/js/main.b1c634ec.chunk.js.map",
+    "main.js": "/basic-tuition-react/static/js/main.e30df656.chunk.js",
+    "main.js.map": "/basic-tuition-react/static/js/main.e30df656.chunk.js.map",
     "runtime-main.js": "/basic-tuition-react/static/js/runtime-main.0fce04e7.js",
     "runtime-main.js.map": "/basic-tuition-react/static/js/runtime-main.0fce04e7.js.map",
     "static/js/2.6047e0fc.chunk.js": "/basic-tuition-react/static/js/2.6047e0fc.chunk.js",
     "static/js/2.6047e0fc.chunk.js.map": "/basic-tuition-react/static/js/2.6047e0fc.chunk.js.map",
     "index.html": "/basic-tuition-react/index.html",
-    "precache-manifest.aceee83099dca87b96e23646999a02af.js": "/basic-tuition-react/precache-manifest.aceee83099dca87b96e23646999a02af.js",
+    "precache-manifest.3f947e9607554662fa95a9fbc69e6116.js": "/basic-tuition-react/precache-manifest.3f947e9607554662fa95a9fbc69e6116.js",
     "service-worker.js": "/basic-tuition-react/service-worker.js",
     "static/css/main.66769509.chunk.css.map": "/basic-tuition-react/static/css/main.66769509.chunk.css.map",
     "static/js/2.6047e0fc.chunk.js.LICENSE.txt": "/basic-tuition-react/static/js/2.6047e0fc.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.0fce04e7.js",
     "static/js/2.6047e0fc.chunk.js",
     "static/css/main.66769509.chunk.css",
-    "static/js/main.b1c634ec.chunk.js"
+    "static/js/main.e30df656.chunk.js"
   ]
 }
